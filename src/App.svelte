@@ -1,15 +1,11 @@
-<script>
-  console.log("434");
-</script>
-
 <main>
   <header>
     <img
       class="logo-sm"
-      src="/src/assets/quadren-logo.svg"
+      src="/assets/quadren-logo.svg"
       alt="Quadren Logo"
     />
-    <img src="/src/assets/fizz-logo.png" alt="Fizz Logo" class="logo-lg" />
+    <img src="/assets/fizz-logo.png" alt="Fizz Logo" class="logo-lg" />
     <p class="text-sm font-general text-on-surface text-right">
       Making it easier <br /> for professionals to connect.
     </p>
@@ -20,7 +16,7 @@
       <div class="img-stack stack-item-top-cards cards">
         <div class="stack-item stack-item-top">
           <!-- <img
-            src="/src/assets/svg/card-front.svg"
+            src="/assets/svg/card-front.svg"
             alt="Fizz Digital Card Illustration"
             id="card-front"
           /> -->
@@ -109,7 +105,7 @@
             </svg>
 <!-- 
           <img
-            src="/src/assets/svg/card-behind.svg"
+            src="/assets/svg/card-behind.svg"
             alt="Fizz NFC Card Illustration"
             id="card-behind"
           /> -->
@@ -118,7 +114,7 @@
 
       <div class="container stack-item-bottom">
         <img
-          src="/src/assets/svg/backdrop.svg"
+          src="/assets/svg/backdrop.svg"
           alt="Networking Should Be Effortless tagline"
           class="backdrop"
         />
@@ -134,7 +130,7 @@
   <ul class="socials">
     <a href="#" class="social-container">
       <img
-        src="/src/assets/icons/instagram.svg"
+        src="/assets/icons/instagram.svg"
         alt="Instagram Logo"
         class="logo-ig"
       />
@@ -142,7 +138,7 @@
 
     <a href="#" class="social-container">
       <img
-        src="/src/assets/icons/twitter.svg"
+        src="/assets/icons/twitter.svg"
         alt="Twitter Logo"
         class="logo-twitter"
       />
@@ -150,7 +146,7 @@
 
     <a href="#" class="social-container">
       <img
-        src="/src/assets/icons/google-play.svg"
+        src="/assets/icons/google-play.svg"
         alt="Google Play Logo"
         class="play-logo"
       />
