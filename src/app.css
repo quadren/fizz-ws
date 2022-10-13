@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "General";
+  src: url("./assets/fonts/GeneralSans-Regular.woff");
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+body {
+  @apply mx-8;
+  @apply bg-bg;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    margin: 0;
+    background-color: rgb(190, 190, 190);
+  }
+
+  main {
+    padding-bottom: 2rem;
+  }
+}
