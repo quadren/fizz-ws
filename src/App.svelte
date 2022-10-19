@@ -164,7 +164,6 @@
     max-width: 1440px;
     @apply flex;
     @apply flex-col;
-    min-height: 100%;
   }
 
   /* header styling */
@@ -207,7 +206,6 @@
   .img-stack {
     display: grid;
     grid-template-rows: repeat(10, fr);
-    position: relative;
   }
 
   .stack-item-top {
@@ -221,6 +219,12 @@
     grid-row: 1;
     z-index: 1;
     position: relative;
+    margin-top: 4em;
+    right: 20px;
+  }
+
+  .cards svg {
+    height: 500px;
   }
 
   .stack-item-bottom {
@@ -278,6 +282,7 @@
     width: 100%;
     max-width: 1440px;
     margin: auto;
+    padding: 2em;
   }
 
   .social-container img {
@@ -354,11 +359,12 @@
     .cards {
       grid-column: 2 / span 1;
       grid-row: 1;
+      margin-top: 8em;
     }
 
     .cards svg {
-      width: 300px;
-      height: 400px;
+      width: 250px;
+      height: 350px;
     }
 
     #card-behind {
@@ -368,13 +374,11 @@
 
     main {
       background-color: #fafafa;
-      border-bottom-left-radius: 30px;
-      border-bottom-right-radius: 30px;
+      border-bottom-left-radius: 14px;
+      border-bottom-right-radius: 14px;
     }
 
     footer {
-      margin-top: 2em;
-      margin-bottom: 2em;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -391,5 +395,27 @@
       font-size: 12px;
     }
 
+    .cards svg {
+      width: 200px;
+      height: 300px;
+    }
+
+    .cards {
+      margin-top: 5em;
+    }
+
+    .logo-lg {
+      width: 3em;
+    }
+
+    .request-cta {
+      width: 100vw;
+      border-radius: 0;
+      border-width: 0;
+    }
+
+    main {
+      padding-bottom: 0;
+    }
   }
 </style>

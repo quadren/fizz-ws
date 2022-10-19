@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "General";
-  src: url("./assets/fonts/GeneralSans-Regular.woff");
+  src: url("/assets/fonts/GeneralSans-Regular.woff");
 }
 
 html {
@@ -23,7 +23,6 @@ body {
 @media screen and (max-width: 640px) {
   body {
     margin: 0;
-    background-color: rgb(190, 190, 190);
   }
 
   main {
