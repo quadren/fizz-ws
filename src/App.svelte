@@ -103,12 +103,6 @@
             </filter>
             </defs>
             </svg>
-<!-- 
-          <img
-            src="/assets/svg/card-behind.svg"
-            alt="Fizz NFC Card Illustration"
-            id="card-behind"
-          /> -->
         </div>
       </div>
 
@@ -122,13 +116,13 @@
     </div>
   </section>
   <div class="cta">
-    <button class="request-cta">Request for Early Access</button>
+    <button type="button" on:click={() => window.location.href ="https://docs.google.com/forms/d/1xHtd5Z5uRGqwWkCSeZZtAMDLbKj7V_v1EVHfcwH9iYA/edit"} class="request-cta">Request for Early Access</button>
   </div>
 </main>
 
 <footer>
   <ul class="socials">
-    <a href="#" class="social-container">
+    <a href="https://www.instagram.com/quadrentech/" target="_blank" class="social-container">
       <img
         src="/assets/icons/instagram.svg"
         alt="Instagram Logo"
@@ -136,7 +130,7 @@
       />
     </a>
 
-    <a href="#" class="social-container">
+    <a href="https://twitter.com/quadrentech" target="_blank" class="social-container">
       <img
         src="/assets/icons/twitter.svg"
         alt="Twitter Logo"
@@ -144,7 +138,7 @@
       />
     </a>
 
-    <a href="#" class="social-container">
+    <a href="https://play.google.com/store/apps/dev?id=5890400694870877977" target="_blank" class="social-container">
       <img
         src="/assets/icons/google-play.svg"
         alt="Google Play Logo"
@@ -311,6 +305,7 @@
       display: grid;
       grid-template-columns: repeat(3, auto);
       grid-auto-rows: minmax(min-content, max-content);
+      padding-top: 3em;
     }
 
     header {
@@ -409,9 +404,7 @@
     }
 
     .request-cta {
-      width: 100vw;
-      border-radius: 0;
-      border-width: 0;
+      font-size: 10px;
     }
 
     main {

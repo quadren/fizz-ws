@@ -7,10 +7,6 @@
   src: url("/assets/fonts/GeneralSans-Regular.woff");
 }
 
-html {
-  height: 100%;
-  min-height: 100%;
-}
 body {
   @apply mx-8;
   @apply bg-bg;
