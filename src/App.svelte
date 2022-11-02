@@ -147,7 +147,7 @@
     </a>
   </ul>
 
-  <p class="text-sm font-general text-on-surface">
+  <p class="md:text-sm font-general text-on-surface">
     &#169; Quadren 2022-23. All rights reserved.
   </p>
 </footer>
@@ -305,7 +305,7 @@
       display: grid;
       grid-template-columns: repeat(3, auto);
       grid-auto-rows: minmax(min-content, max-content);
-      padding-top: 3em;
+      padding-top: 1.5em;
     }
 
     header {
@@ -387,6 +387,7 @@
 
   @media screen and (max-width: 480px) {
     .request-cta {
+      padding: 1em 1.5em;
       font-size: 12px;
     }
 
@@ -403,12 +404,13 @@
       width: 3em;
     }
 
-    .request-cta {
-      font-size: 10px;
-    }
-
     main {
       padding-bottom: 0;
     }
+
+    footer p {
+      font-size: 10px;
+    }
+
   }
 </style>
